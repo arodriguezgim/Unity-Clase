@@ -13,10 +13,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2021-02-05T18:07:42.785+01:00
-  initializedAtString: 2021-02-05T18:07:42.776+01:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2021-02-10T16:31:49.045+01:00
+  initializedAtString: 2021-02-10T16:31:49.034+01:00
+  localBranches:
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/main
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/arodriguezgim/Unity-Clase.git
@@ -26,12 +30,27 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - main
+    values:
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/arodriguezgim/Unity-Clase.git
+      trackingBranch: main
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - main
+    subKeyValues:
+    - Values:
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/arodriguezgim/Unity-Clase.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
