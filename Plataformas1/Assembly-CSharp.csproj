@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CambiarColor.cs" />
     <Compile Include="Assets\Scripts\Bala.cs" />
+    <Compile Include="Assets\Scripts\TestingKeys.cs" />
+    <Compile Include="Assets\Scripts\EnemyPatrol.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
