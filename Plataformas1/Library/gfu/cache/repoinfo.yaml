@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-02-17T16:58:03.961+01:00
-  initializedAtString: 2021-02-17T15:53:00.137+01:00
+  lastUpdatedAtString: 2021-02-24T15:53:36.959+01:00
+  initializedAtString: 2021-02-24T14:50:55.285+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/arodriguezgim/Unity-Clase.git

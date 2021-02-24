@@ -13,66 +13,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-02-17T17:30:33.073+01:00
-  initializedAtString: 2021-02-17T15:53:00.399+01:00
+  lastUpdatedAtString: 2021-02-24T16:28:17.421+01:00
+  initializedAtString: 2021-02-24T14:51:03.330+01:00
   entries:
-  - path: Plataformas1\Assembly-CSharp.csproj
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Plataformas1\Assets\Animations\Player\Atack.anim
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Animations\Player\Atack.anim
-    projectPath: Assets\Animations\Player\Atack.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Plataformas1\Assets\Animations\Player\JumpingFalling.anim
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Animations\Player\JumpingFalling.anim
-    projectPath: Assets\Animations\Player\JumpingFalling.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Plataformas1\Assets\Animations\Player\JumpingLanding.anim
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Animations\Player\JumpingLanding.anim
-    projectPath: Assets\Animations\Player\JumpingLanding.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Plataformas1\Assets\Animations\Player\JumpingStart.anim
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Animations\Player\JumpingStart.anim
-    projectPath: Assets\Animations\Player\JumpingStart.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Plataformas1\Assets\Animations\Player\JumpingTop.anim
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Animations\Player\JumpingTop.anim
-    projectPath: Assets\Animations\Player\JumpingTop.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Plataformas1\Assets\Animations\Player\LongIdleLoop.anim
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Animations\Player\LongIdleLoop.anim
-    projectPath: Assets\Animations\Player\LongIdleLoop.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Plataformas1\Assets\Animations\Player\LongIdleStart.anim
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Animations\Player\LongIdleStart.anim
-    projectPath: Assets\Animations\Player\LongIdleStart.anim
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Plataformas1\Assets\Animations\Player\Player.controller
     fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Animations\Player\Player.controller
     projectPath: Assets\Animations\Player\Player.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Plataformas1\Assets\Animations\Player\Walking.anim
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Animations\Player\Walking.anim
-    projectPath: Assets\Animations\Player\Walking.anim
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -86,47 +32,17 @@ MonoBehaviour:
     fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Scripts\PlayerController.cs
     projectPath: Assets\Scripts\PlayerController.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Plataformas1\Assets\Scripts\PlayerController.cs.meta
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Assets\Scripts\PlayerController.cs.meta
-    projectPath: Assets\Scripts\PlayerController.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Plataformas1\Library\ArtifactDB
     fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Plataformas1\Library\Artifacts\02\0263a9c7ab6c2e0401ef895e083c15e6
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\02\0263a9c7ab6c2e0401ef895e083c15e6
-    projectPath: Library\Artifacts\02\0263a9c7ab6c2e0401ef895e083c15e6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\0c\0c222a990206a8d6cc45f070a33d3782
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\0c\0c222a990206a8d6cc45f070a33d3782
-    projectPath: Library\Artifacts\0c\0c222a990206a8d6cc45f070a33d3782
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\0e\0e5306d69c34cf7247e51677ec23c507
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\0e\0e5306d69c34cf7247e51677ec23c507
-    projectPath: Library\Artifacts\0e\0e5306d69c34cf7247e51677ec23c507
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\26\2623e1db52a9561effcdeb8510b3b5e4
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\26\2623e1db52a9561effcdeb8510b3b5e4
-    projectPath: Library\Artifacts\26\2623e1db52a9561effcdeb8510b3b5e4
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\29\29a33bf615fe90eadb80f3c4b185cde8
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\29\29a33bf615fe90eadb80f3c4b185cde8
-    projectPath: Library\Artifacts\29\29a33bf615fe90eadb80f3c4b185cde8
+  - path: Plataformas1\Library\Artifacts\1d\1dce0748562518706637eabe92775bf5
+    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\1d\1dce0748562518706637eabe92775bf5
+    projectPath: Library\Artifacts\1d\1dce0748562518706637eabe92775bf5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -134,119 +50,35 @@ MonoBehaviour:
     fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\2a\2a5d0b2cd388bf0eb26bcb1ce10b8beb
     projectPath: Library\Artifacts\2a\2a5d0b2cd388bf0eb26bcb1ce10b8beb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Plataformas1\Library\Artifacts\31\3108633ea15ca6abfa51574d62a77cbb
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\31\3108633ea15ca6abfa51574d62a77cbb
-    projectPath: Library\Artifacts\31\3108633ea15ca6abfa51574d62a77cbb
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\3d\3d9bf638f10014704156cb6bc34122ec
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\3d\3d9bf638f10014704156cb6bc34122ec
-    projectPath: Library\Artifacts\3d\3d9bf638f10014704156cb6bc34122ec
+  - path: Plataformas1\Library\Artifacts\2d\2d54d6bb8f11b51914afebaf1d0c525b
+    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\2d\2d54d6bb8f11b51914afebaf1d0c525b
+    projectPath: Library\Artifacts\2d\2d54d6bb8f11b51914afebaf1d0c525b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Plataformas1\Library\Artifacts\3e\3ec2d6d9594ff55c612add81ccfd0824
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\3e\3ec2d6d9594ff55c612add81ccfd0824
-    projectPath: Library\Artifacts\3e\3ec2d6d9594ff55c612add81ccfd0824
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\3f\3fe89c2ed359d0addaa76eca292af24c
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\3f\3fe89c2ed359d0addaa76eca292af24c
-    projectPath: Library\Artifacts\3f\3fe89c2ed359d0addaa76eca292af24c
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\45\451b5395ef31546f9285e3de3ae6a67d
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\45\451b5395ef31546f9285e3de3ae6a67d
-    projectPath: Library\Artifacts\45\451b5395ef31546f9285e3de3ae6a67d
+  - path: Plataformas1\Library\Artifacts\59\59173dbec15bd93a670917eacaf5754b
+    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\59\59173dbec15bd93a670917eacaf5754b
+    projectPath: Library\Artifacts\59\59173dbec15bd93a670917eacaf5754b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Plataformas1\Library\Artifacts\4a\4af13b6a8573bbf2cc1b3303c6cb2efb
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\4a\4af13b6a8573bbf2cc1b3303c6cb2efb
-    projectPath: Library\Artifacts\4a\4af13b6a8573bbf2cc1b3303c6cb2efb
+  - path: Plataformas1\Library\Artifacts\5e\5e3a04e7dfc8f85ff0fc69cf30b181fb
+    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\5e\5e3a04e7dfc8f85ff0fc69cf30b181fb
+    projectPath: Library\Artifacts\5e\5e3a04e7dfc8f85ff0fc69cf30b181fb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\50\5031420cfb2adea914e1decb185fbb1d
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\50\5031420cfb2adea914e1decb185fbb1d
-    projectPath: Library\Artifacts\50\5031420cfb2adea914e1decb185fbb1d
+  - path: Plataformas1\Library\Artifacts\83\83c784d4999df4678d27f7bc45f21e46
+    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\83\83c784d4999df4678d27f7bc45f21e46
+    projectPath: Library\Artifacts\83\83c784d4999df4678d27f7bc45f21e46
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\5b\5bd262881a9c35104cce3627de787bcd
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\5b\5bd262881a9c35104cce3627de787bcd
-    projectPath: Library\Artifacts\5b\5bd262881a9c35104cce3627de787bcd
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\78\78494fdd9ff3a303329665259ffdb181
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\78\78494fdd9ff3a303329665259ffdb181
-    projectPath: Library\Artifacts\78\78494fdd9ff3a303329665259ffdb181
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\7d\7d7d8a9122e5345e755ac0979b42b645
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\7d\7d7d8a9122e5345e755ac0979b42b645
-    projectPath: Library\Artifacts\7d\7d7d8a9122e5345e755ac0979b42b645
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Plataformas1\Library\Artifacts\83\83f43fbbd714bf4d4f061eb87fa3f9a6
     fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\83\83f43fbbd714bf4d4f061eb87fa3f9a6
     projectPath: Library\Artifacts\83\83f43fbbd714bf4d4f061eb87fa3f9a6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Plataformas1\Library\Artifacts\84\84fb545942af0a039a7cb54dd3f0e289
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\84\84fb545942af0a039a7cb54dd3f0e289
-    projectPath: Library\Artifacts\84\84fb545942af0a039a7cb54dd3f0e289
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\8e\8ed7eed9150219b95e01a7a480c4c208
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\8e\8ed7eed9150219b95e01a7a480c4c208
-    projectPath: Library\Artifacts\8e\8ed7eed9150219b95e01a7a480c4c208
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\8f\8ff9c0d507cab6bd27e08b93914b4aa5
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\8f\8ff9c0d507cab6bd27e08b93914b4aa5
-    projectPath: Library\Artifacts\8f\8ff9c0d507cab6bd27e08b93914b4aa5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\a6\a6807fad177072c02a43c7e6ecc5e6be
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\a6\a6807fad177072c02a43c7e6ecc5e6be
-    projectPath: Library\Artifacts\a6\a6807fad177072c02a43c7e6ecc5e6be
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\ac\ac7e59527d800dbef4e9f00fd9f98359
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\ac\ac7e59527d800dbef4e9f00fd9f98359
-    projectPath: Library\Artifacts\ac\ac7e59527d800dbef4e9f00fd9f98359
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\b2\b25903c2c821374d190b4fe8cc1a32de
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\b2\b25903c2c821374d190b4fe8cc1a32de
-    projectPath: Library\Artifacts\b2\b25903c2c821374d190b4fe8cc1a32de
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\b7\b7e7e36517d296551c52bb0958b79ca3
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\b7\b7e7e36517d296551c52bb0958b79ca3
-    projectPath: Library\Artifacts\b7\b7e7e36517d296551c52bb0958b79ca3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\c4\c4ca1bf5d141611c8ea20b8055d914b9
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\c4\c4ca1bf5d141611c8ea20b8055d914b9
-    projectPath: Library\Artifacts\c4\c4ca1bf5d141611c8ea20b8055d914b9
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
@@ -254,26 +86,14 @@ MonoBehaviour:
     fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\d0\d03a293d05a5201038f705654a3b91cc
     projectPath: Library\Artifacts\d0\d03a293d05a5201038f705654a3b91cc
     originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Plataformas1\Library\Artifacts\ff\ff84689644d97635a8a64b45ddb9d6f2
+    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\ff\ff84689644d97635a8a64b45ddb9d6f2
+    projectPath: Library\Artifacts\ff\ff84689644d97635a8a64b45ddb9d6f2
+    originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Plataformas1\Library\Artifacts\d0\d04d6aa29dd21eaa1cb18fab966a9e26
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\d0\d04d6aa29dd21eaa1cb18fab966a9e26
-    projectPath: Library\Artifacts\d0\d04d6aa29dd21eaa1cb18fab966a9e26
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\e7\e726012eecf07c798d47ca1e732223c2
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\e7\e726012eecf07c798d47ca1e732223c2
-    projectPath: Library\Artifacts\e7\e726012eecf07c798d47ca1e732223c2
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Plataformas1\Library\Artifacts\e8\e879a2ccda37a02d59024c189538846f
-    fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\Artifacts\e8\e879a2ccda37a02d59024c189538846f
-    projectPath: Library\Artifacts\e8\e879a2ccda37a02d59024c189538846f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
   - path: Plataformas1\Library\CurrentLayout-default.dwlt
     fullPath: D:\Users\Alberto\Unity\Plataformas1\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
@@ -368,11 +188,17 @@ MonoBehaviour:
     fullPath: D:\Users\Alberto\Unity\Plataformas1\Logs\AssetImportWorker0.log
     projectPath: Logs\AssetImportWorker0.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Plataformas1\Logs\AssetImportWorker0-prev.log
     fullPath: D:\Users\Alberto\Unity\Plataformas1\Logs\AssetImportWorker0-prev.log
     projectPath: Logs\AssetImportWorker0-prev.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Plataformas1\ProjectSettings\TagManager.asset
+    fullPath: D:\Users\Alberto\Unity\Plataformas1\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
