@@ -5,8 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // Velocidad a la que se va a mover el jugador
+    public float longIdleTime = 5f;
     public float velocidad = 2.5f;
     public float fuerzaSalto = 2.5f;
+    //Long Idle
+    private float _longIdleTimer = 0f;
     // Controlo si estoy en el suelo
     public Transform groundCheck; //desde donde haremos el chequeo del suelo
     public LayerMask groundLayer;// seleccionaremos qué layer es el suelo
@@ -18,6 +21,8 @@ public class PlayerController : MonoBehaviour
     private Vector2 _movimiento;
     private bool _facingRight = true;
     private bool _enSuelo;
+    //Attack
+    private bool _isAttacking;
 
 
 
@@ -56,12 +61,23 @@ public class PlayerController : MonoBehaviour
         {
             _rigidbody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
         }
+        //atacamos
+        if ( Input.GetKeyDown(KeyCode.M) && _enSuelo == true && _isAttacking == false)
+        {
+            _movimiento = Vector2.zero;
+            _rigidbody.velocity = Vector2.zero;
+            _animator.SetTrigger("Attack");
+        }
     }
     //Es para mover cualquier objeto en Unity
     private void FixedUpdate()
     {
-        float horizontalVelocity = _movimiento.normalized.x * velocidad;
-        _rigidbody.velocity = new Vector2(horizontalVelocity, _rigidbody.velocity.y);
+        if (_isAttacking == false)
+        {
+            float horizontalVelocity = _movimiento.normalized.x * velocidad;
+            _rigidbody.velocity = new Vector2(horizontalVelocity, _rigidbody.velocity.y);
+        }
+        
     }
 
     // Donde metemos el codigo de las animaciones
@@ -70,6 +86,27 @@ public class PlayerController : MonoBehaviour
         _animator.SetBool("Idle", _movimiento == Vector2.zero);
         _animator.SetBool("enSuelo", _enSuelo);
         _animator.SetFloat("VerticalVelocity", _rigidbody.velocity.y);
+        //Nos dice el estado de la animacion de atacar
+        if (_animator.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
+        {
+            _isAttacking = true;
+        } else
+        {
+            _isAttacking = false;
+        }
+        // Long Idle  Si estoy en el estado Idle
+        if(_animator.GetCurrentAnimatorStateInfo(0).IsTag("Idle"))
+        {
+            _longIdleTimer += Time.deltaTime;
+
+            if (_longIdleTimer >= longIdleTime)
+            {
+                _animator.SetTrigger("LongIdle");
+            } else
+            {
+                _longIdleTimer = 0f;
+            }
+        }
     }
 
     private void Flip()
