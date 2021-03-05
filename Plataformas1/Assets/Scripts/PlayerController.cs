@@ -23,6 +23,10 @@ public class PlayerController : MonoBehaviour
     private bool _enSuelo;
     //Attack
     private bool _isAttacking;
+    //Audio Source
+    private AudioSource _fuenteDeAudio;
+    // Clips de Audio
+    public AudioClip salto;
 
 
 
@@ -31,6 +35,7 @@ public class PlayerController : MonoBehaviour
         // Cogemos las referencias
         _rigidbody = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
+        _fuenteDeAudio = GetComponent<AudioSource>();
     }
     // Start is called before the first frame update
     void Start()
@@ -60,6 +65,9 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && _enSuelo == true)
         {
             _rigidbody.AddForce(Vector2.up * fuerzaSalto, ForceMode2D.Impulse);
+            // Emitimos el sonido de salto
+            _fuenteDeAudio.clip = salto;
+            _fuenteDeAudio.Play();
         }
         //atacamos
         if ( Input.GetKeyDown(KeyCode.M) && _enSuelo == true && _isAttacking == false)
